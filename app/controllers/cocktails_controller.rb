@@ -7,7 +7,6 @@ class CocktailsController < ApplicationController
 
   def show
     @dose = Dose.new
-    # @doses = @cockatail.doses
     @ingredients = @cocktail.ingredients
   end
 

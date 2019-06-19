@@ -10,3 +10,17 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.navbar-logo {
+  font-family: Pacifico;
+  color: #dc9e82
+}
+
+.btn {
+  &:hover {
+    color: white;
+  }
+  &:active {
+    color:white;
+  }
+}
