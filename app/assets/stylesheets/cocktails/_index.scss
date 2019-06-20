@@ -1,4 +1,5 @@
 @import '_show';
+@import '_new';
 
 .fa-times {
   color: rgb(200, 200, 200);
@@ -12,7 +13,7 @@
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   height: 220px;
-  width: 300px;
+  width: 100%;
   border-radius: 4px;
   padding: 0;
 }

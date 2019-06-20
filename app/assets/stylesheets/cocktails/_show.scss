@@ -1,0 +1,39 @@
+h3 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #092847;
+  opacity: 0.7;
+  &:hover {
+    color: #092847;
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+.ingredient {
+  margin-bottom: 2px;
+}
+
+.ingredient-name {
+  font-weight: bold;
+}
+
+.ingredients-add {
+  font-size: 20px;
+  &:hover {
+    color: #092847;
+  }
+}
+
+.cocktail-image {
+  border-radius: 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-bottom: 16px;
+}
+
+.return-page {
+  margin-top: 8px;
+}
