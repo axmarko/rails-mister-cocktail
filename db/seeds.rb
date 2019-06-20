@@ -1,6 +1,8 @@
 require 'open-uri'
 require 'JSON'
 
+Ingredient.destroy_all
+
 url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 ingredients_serialized = open(url).read
 ingredients = JSON.parse(ingredients_serialized)
