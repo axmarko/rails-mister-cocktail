@@ -1,8 +1,48 @@
 @import '_show';
 
 .fa-times {
-  color: rgb(160, 160, 160);
+  color: rgb(200, 200, 200);
   &:hover {
-    color: black;
+    color: #DC9E82;
   }
+}
+
+.card-cocktail {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  height: 220px;
+  width: 300px;
+  border-radius: 4px;
+  padding: 0;
+}
+
+.card-cocktail-img {
+  height: 170px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-cocktail-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-cocktail-infos-name > a {
+  color: #092847;
+  &:hover {
+    opacity: 0.6;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-family: Pacifico;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: #092847;
 }
