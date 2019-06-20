@@ -1,0 +1,8 @@
+@import '_show';
+
+.fa-times {
+  color: rgb(160, 160, 160);
+  &:hover {
+    color: black;
+  }
+}
